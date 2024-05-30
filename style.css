@@ -20,6 +20,12 @@ overflow: hidden;
     margin-right: 0.5rem;
 }
 
+@media (max-width:900px) {
+    .sidebar {
+        display: none;
+    }
+}
+
 .main_content {
     background-color: #121212;
     flex: 1;
@@ -258,6 +264,35 @@ a {
     text-decoration: underline;
 }
 
+@media (max-width: 900px) {
+    .footer{
+         display: flex;
+         flex-direction: column;
+         height: auto;
+         justify-content: center;
+         align-items: center;
+         gap: 0.1px;
+    }
+    .comp {
+        width: auto;
+        margin: 0.5rem;
+    }
+    .Communities {
+        width: auto;
+        margin: 0.5rem;
+    }
+    .link {
+        width: auto;
+    }
+    .company-icon{
+        width: auto;
+        flex-direction: column;
+    }
+    .company-c1 {
+        margin: 0.5rem;
+    }
+}
+
 
 .link {
     width: 25%;
@@ -378,6 +413,11 @@ a {
     margin-right: 10px;
 }
 
+@media (max-width:900px) {
+    .album {
+        display: none;
+    }
+}
 
 .player {
     width: 50%;
@@ -407,6 +447,12 @@ a {
     height: 0.2rem;
     cursor: pointer;
 }
+
+@media (max-width:1000px) {
+    .player {
+         margin-left: 6rem;
+    }
+}
 /* .progress-bar::-webkit-slider-runnable-track {
     background-color: #ddd;
     border-radius: 100px;
@@ -432,4 +478,9 @@ a {
     height: 0.3rem;
     cursor: pointer;
     margin-right: 2rem;
+}
+@media (max-width:1000px) {
+    .controls {
+        display: none;
+    }
 }

@@ -277,12 +277,21 @@ a {
         width: auto;
         margin: 0.5rem;
     }
+    .list {
+        padding: 0%;
+    }
     .Communities {
         width: auto;
         margin: 0.5rem;
     }
+    .list-two {
+        padding: 0%;
+    }
     .link {
         width: auto;
+    }
+    .list-three {
+        padding: 0%;
     }
     .company-icon{
         width: auto;
